@@ -141,3 +141,119 @@ body {
     font-weight: bold;
     color: #f39c12;
 }
+
+/* Testimonials Section */
+.testimonials {
+    padding: 80px 50px;
+    background: #fff;
+    text-align: center;
+    color: #333;
+}
+
+.testimonials h2 {
+    font-size: 2.5rem;
+    margin-bottom: 50px;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 30px;
+}
+
+.testimonials-card {
+    background: #f9f9f9;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.testimonials-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.testimonials-card img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.testimonials-card p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.testimonials-card h4 {
+    font-size: 1.1rem;
+    color: #f39c12;
+}
+
+/* Contact Section */
+.contact {
+    padding: 80px 50px;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.contact h2 {
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+    color: #333;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form input, .contact-form textarea {
+    margin-bottom: 20px;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+    outline: 2px solid #f39c12;
+}
+
+.contact-form button {
+    padding: 15px;
+    border: none;
+    background: #f39c12;
+    color: #fff;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.contact-form button:hover {
+    background: #d35400;
+}
+
+/* Footer */
+.footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+.footer .socials a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #f39c12;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.footer .socials a:hover {
+    color: #fff;
+}
